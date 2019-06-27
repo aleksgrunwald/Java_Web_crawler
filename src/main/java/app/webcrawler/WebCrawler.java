@@ -20,16 +20,16 @@ public class WebCrawler {
             foundHrefs.add(link.attr("href"));
         }
 
-        foundHrefs.stream()
-                .forEach((elem) -> {
-                    System.out.print(elem);
-                    if(filteredHrefs.indexOf(elem) == -1) {
-                        filteredHrefs.add(elem);
-                    }
-                });
-        }
+//        foundHrefs.stream()
+//                .forEach((elem) -> {
+//                    System.out.print(elem);
+//                    if(filteredHrefs.indexOf(elem) == -1) {
+//                        filteredHrefs.add(elem);
+//                    }
+//                });
+//        }
 
-        return
+        return foundHrefs
     }
 
 
